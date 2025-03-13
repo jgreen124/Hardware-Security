@@ -2,7 +2,7 @@ Joshua Green
 Lab Report 1
 
 
-
+Section 3 - Run Example Trusted Applications.
 What is the first function being called when the Trusted Application is executed?
 From this function, which parameters come from the normal world , and which parameters come from the secure world?
 
@@ -13,6 +13,7 @@ In this particular case, the normal world calls the TA_CreateEntryPoint function
 The hello_world function just increments a number by 1, which can be seen when the normal world gets the number 43 from the secure world.
 
 
+Section 4B - Run OP-TEE in hardware mode
 What are the differences between running OP-TEE in simulation mode and in hardware mode?
 
 The main difference between running OP-TEE in simulation mode and hardware mode is the speed with
