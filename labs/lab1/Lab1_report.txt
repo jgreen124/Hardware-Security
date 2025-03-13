@@ -1,0 +1,20 @@
+Joshua Green
+Lab Report 1
+
+
+
+What is the first function being called when the Trusted Application is executed?
+From this function, which parameters come from the normal world , and which parameters come from the secure world?
+
+The first function be called is TA_CreateEntryPoint. This function passes through the desired trusted application to be run to the secure world so the secure world knows what application
+to run. 
+In short, the normal world wants to run a trusted application and passes through the ID of the function to be run as well as the parameters for the function.
+In this particular case, the normal world calls the TA_CreateEntryPoint function, passing through the ID for the hello_world function and the number "42".
+The hello_world function just increments a number by 1, which can be seen when the normal world gets the number 43 from the secure world.
+
+
+What are the differences between running OP-TEE in simulation mode and in hardware mode?
+
+The main difference between running OP-TEE in simulation mode and hardware mode is the speed with
+which xtest runs. Because the simulation has to emulate an ARM device, it is very slow when compared to the raspberry pi, which 
+runs xtest natively since the pi is an ARM device. As a result, xtest runs significantly faster on the pi than the simulation.
