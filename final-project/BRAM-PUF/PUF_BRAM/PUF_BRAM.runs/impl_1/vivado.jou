@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr  8 15:07:51 2025
+# Process ID         : 16871
+# Current directory  : /home/joshg/Documents/hardware-security/final-project/BRAM-PUF/PUF_BRAM/PUF_BRAM.runs/impl_1
+# Command line       : vivado -log lfsr_with_seed.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lfsr_with_seed.tcl -notrace
+# Log file           : /home/joshg/Documents/hardware-security/final-project/BRAM-PUF/PUF_BRAM/PUF_BRAM.runs/impl_1/lfsr_with_seed.vdi
+# Journal file       : /home/joshg/Documents/hardware-security/final-project/BRAM-PUF/PUF_BRAM/PUF_BRAM.runs/impl_1/vivado.jou
+# Running On         : joshg-XPS-13-9340
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 155H
+# CPU Frequency      : 2497.404 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 16187 MB
+# Swap memory        : 4294 MB
+# Total Virtual      : 20482 MB
+# Available Virtual  : 13627 MB
+#-----------------------------------------------------------
+source lfsr_with_seed.tcl -notrace
